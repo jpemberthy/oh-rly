@@ -1,0 +1,8 @@
+name: 'Oh Rly'
+description: 'Trolls folks when they are pushing code at a suspicious time'
+outputs:
+  message:
+    description: 'The message to be posted'
+runs:
+  using: 'docker'
+  main: 'Dockerfile'
