@@ -5,4 +5,4 @@ outputs:
     description: 'The message to be posted'
 runs:
   using: 'docker'
-  main: 'Dockerfile'
+  image: 'Dockerfile'
